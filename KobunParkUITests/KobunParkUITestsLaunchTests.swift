@@ -1,10 +1,6 @@
 //
 //  KobunParkUITestsLaunchTests.swift
 //  KobunParkUITests
-//
-//  Created by 野口真吾 on 2026/08/14.
-//
-
 import XCTest
 
 final class KobunParkUITestsLaunchTests: XCTestCase {
