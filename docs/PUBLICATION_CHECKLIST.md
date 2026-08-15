@@ -2,7 +2,7 @@
 
 ## 公開を止める必須確認
 
-- [x] 著作権者を`nguchi`とし、見直し前提の暫定`LICENSE`をルートに追加する
+- [x] 著作権者を`nguchi`とし、正式なMIT `LICENSE`をルートに追加する
 - [x] 公開先リポジトリでPrivate Vulnerability Reportingを有効化する
 - [x] `git diff --check`と全単体テストを成功させる（2026-08-15、73件成功）
 - [x] DebugとReleaseのmacOSビルドを確認する（2026-08-15、署名なしビルド）
@@ -26,7 +26,6 @@
 
 ## 現在の未決事項
 
-- プロジェクト本体の最終ライセンス条件
 - 公開時のバージョンとタグ
 - GitHub Actionsで使用するmacOS・Xcode環境
 - 配布時の`CFBundleVersion`形式

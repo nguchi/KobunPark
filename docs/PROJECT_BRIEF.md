@@ -153,8 +153,8 @@ KobunParkという名称には、複数の構文ツールを一か所に集め�
 | Bundle ID | `jp.nguchi.KobunPark` |
 | Version | 開発中は`0`。利用者が明示指定した場合だけ変更 |
 | Build | 日本時間の`YYYYMMDDHHMMSST`形式 |
-| Copyright | `Copyright © 2026 nguchi. All rights reserved.` |
-| License | 見直し前提の暫定プロプライエタリライセンス。第三者資産は各ライセンスに従う |
+| Copyright | `Copyright © 2026 nguchi.` |
+| License | MIT License。複製・改変・再配布・商用利用を許諾し、無保証・責任制限を適用 |
 | 初期プラットフォーム | macOS |
 | 将来展開 | iPadOS、iOS |
 | 共通ロジック | UIから分離した`KobunCore`を想定 |
@@ -318,7 +318,6 @@ KobunPark/
 
 ## 18. 次のアクション
 
-1. プロジェクト本体の最終ライセンス条件を見直す
-2. 公開用の架空データだけで画面写真を作成する
-3. GitHubのSecurity、Ruleset、CI方針を設定する
-4. 実利用で変換結果と操作性を評価する
+1. 公開用の架空データだけで画面写真を作成する
+2. GitHubのRulesetとCI方針を設定する
+3. 実利用で変換結果と操作性を評価する
