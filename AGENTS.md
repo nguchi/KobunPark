@@ -164,4 +164,4 @@ A task is complete only when:
 - Local-first and explicit user control take priority over automatic collection or synchronization.
 - The Xcode marketing version is user-controlled and is currently `0`; Codex must not change it without explicit user instruction.
 - The Xcode build number uses a Japan-time timestamp in `YYYYMMDDHHMMSST` form and should be refreshed when preparing an identifiable development build.
-- The copyright holder is `nguchi`; the project is provisionally all-rights-reserved until the user explicitly selects replacement license terms.
+- The copyright holder is `nguchi`; KobunPark is distributed under the MIT License, including its permission grant, warranty disclaimer, and limitation of liability.
