@@ -1,0 +1,27 @@
+:root {
+  color-scheme: light dark;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+html,
+body {
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0;
+  overflow: auto;
+  background: transparent;
+  color: CanvasText;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+#preview {
+  max-width: 100%;
+  font-size: 1.35rem;
+  overflow-wrap: anywhere;
+}
