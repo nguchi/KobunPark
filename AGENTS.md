@@ -162,3 +162,6 @@ A task is complete only when:
 - macOS ships first; iPadOS and iOS follow after the core workflow is stable.
 - AI is not required for the MVP. Deterministic transformation takes priority.
 - Local-first and explicit user control take priority over automatic collection or synchronization.
+- The Xcode marketing version is user-controlled and is currently `0`; Codex must not change it without explicit user instruction.
+- The Xcode build number uses a Japan-time timestamp in `YYYYMMDDHHMMSST` form and should be refreshed when preparing an identifiable development build.
+- The copyright holder is `nguchi`; the project is provisionally all-rights-reserved until the user explicitly selects replacement license terms.

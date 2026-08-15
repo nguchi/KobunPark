@@ -4,7 +4,7 @@ KobunParkは、入力文字列やクリップボードに機密情報が含ま�
 
 ## Supported versions
 
-公開後は、最新の`main`ブランチと最新リリースをサポート対象とします。
+Version 0の開発中は、最新の`main`ブランチだけをサポート対象とします。安定版リリースはまだありません。
 
 ## Reporting a vulnerability
 

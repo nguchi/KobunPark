@@ -1,5 +1,10 @@
 # KobunPark
 
+> [!WARNING]
+> **Version 0 — 開発中**
+>
+> 現在は仕様・画面・変換結果が変更される可能性がある開発版で、安定版ではありません。重要なデータは必ず原本を保持してください。
+
 KobunParkは、JSON、CSV、URL・文字列、LaTeX、正規表現をローカルで整形・検証・変換・プレビューするmacOS向けSwiftUIアプリです。
 
 ## 現在の機能
@@ -35,6 +40,9 @@ Undo／Redo履歴は最大100操作をメモリ内だけに保持し、アプリ
 - 主要ターゲット：macOS
 - 現在の最小対応OS：macOS 26.5
 - Bundle ID：`jp.nguchi.KobunPark`
+- 開発中のVersion：`0`（利用者が指定した場合だけ変更）
+- Build：日本時間の`YYYYMMDDHHMMSST`形式（現在は`20260815085916T`）
+- Copyright：`Copyright © 2026 nguchi. All rights reserved.`
 - LaTeX描画：KaTeX 0.18.1（MIT、アプリに資産とライセンスを同梱）
 
 KaTeXは実行時にCDNや外部サービスへ接続せず、WebKitの非永続データストア内でローカル資産のみを読み込みます。
@@ -64,6 +72,8 @@ xcodebuild -project KobunPark.xcodeproj -scheme KobunPark -destination 'platform
 
 署名と配布方法は未決定です。現在のプロジェクト設定はmacOS 26.5以降を対象としています。
 
+Build番号末尾の`T`は開発中の識別性を優先した運用です。Appleの配布用`CFBundleVersion`仕様では数字とピリオドだけが正式形式のため、App Storeや公証を伴う配布前に形式を再確認します。
+
 ## リポジトリ文書
 
 - [貢献ガイド](CONTRIBUTING.md)
@@ -73,4 +83,8 @@ xcodebuild -project KobunPark.xcodeproj -scheme KobunPark -destination 'platform
 
 ## ライセンス
 
-プロジェクト本体のライセンスは公開前の未決事項です。ライセンスが選択され、ルートに`LICENSE`が追加されるまで、コードの再利用条件は許諾されていません。KaTeXのMITライセンスは別途同梱しています。
+プロジェクト本体は、見直しを前提とした暫定的なプロプライエタリライセンスです。著作権者は`nguchi`で、書面による事前許可のない利用、複製、変更、再配布等を許諾していません。条件はルートの[LICENSE](LICENSE)を参照してください。
+
+第三者コンポーネントにはこの条件を適用せず、KaTeXは同梱したMITライセンスに従います。
+
+GitHubでのソース公開は開発状況を共有するためのものであり、オープンソース利用許諾を意味しません。最終ライセンスは開発中に見直す予定です。

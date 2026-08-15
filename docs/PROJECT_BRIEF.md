@@ -4,7 +4,7 @@
 - プロジェクト名：KobunPark
 - 初版作成日：2026-08-13
 - 最終更新日：2026-08-14
-- ステータス：MVP実装・GitHub公開準備段階
+- ステータス：Version 0・MVP開発中（GitHub Public）
 - 主利用者：開発者本人
 
 ## 1. エグゼクティブサマリー
@@ -151,6 +151,10 @@ KobunParkという名称には、複数の構文ツールを一か所に集め�
 | 言語 | Swift |
 | UI | SwiftUI |
 | Bundle ID | `jp.nguchi.KobunPark` |
+| Version | 開発中は`0`。利用者が明示指定した場合だけ変更 |
+| Build | 日本時間の`YYYYMMDDHHMMSST`形式 |
+| Copyright | `Copyright © 2026 nguchi. All rights reserved.` |
+| License | 見直し前提の暫定プロプライエタリライセンス。第三者資産は各ライセンスに従う |
 | 初期プラットフォーム | macOS |
 | 将来展開 | iPadOS、iOS |
 | 共通ロジック | UIから分離した`KobunCore`を想定 |
@@ -314,7 +318,7 @@ KobunPark/
 
 ## 18. 次のアクション
 
-1. プロジェクト本体の公開ライセンスを選択する
+1. プロジェクト本体の最終ライセンス条件を見直す
 2. 公開用の架空データだけで画面写真を作成する
 3. GitHubのSecurity、Ruleset、CI方針を設定する
 4. 実利用で変換結果と操作性を評価する
